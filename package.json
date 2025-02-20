@@ -6,7 +6,11 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@prisma/client": "5.13.0",
+    "@supabase/supabase-js": "^2.48.1",
+    "dotenv": "^16.4.7",
+    "elysia": "latest",
+    "prisma": "5.13.0"
   },
   "devDependencies": {
     "bun-types": "latest"
